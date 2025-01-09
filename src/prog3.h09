@@ -1,0 +1,45 @@
+/*Prog3*/
+Program prog3;
+Var Integer Aaaaaaa,Aaaaaa2,Bbbbbbb,Xxxxxxx,Cccccc1,Cccccc2;
+Start
+Input Aaaaaaa;
+Input Bbbbbbb;
+For Aaaaaa2<-Aaaaaaa To Bbbbbbb Do
+	Output Aaaaaa2 Mul Aaaaaa2;
+
+For Aaaaaa2<-Bbbbbbb Downto Aaaaaaa Do
+	Output Aaaaaa2 Mul Aaaaaa2;
+
+Xxxxxxx<-0;
+Cccccc1<-0;
+While Cccccc1 Le Aaaaaaa 
+Start
+	Cccccc2<-0;
+	While Cccccc2 Le Bbbbbbb
+	Start	
+		Xxxxxxx<-Xxxxxxx + 1;
+		Cccccc2<-Cccccc2 + 1;
+	Finish
+	End While
+Cccccc1<-Cccccc1 + 1;
+Finish	
+End While
+Output Xxxxxxx;
+
+Xxxxxxx<-0;
+Cccccc1<-1;
+Repeat
+Start
+  Cccccc2<-1;
+  Repeat
+  Start
+    Xxxxxxx<-Xxxxxxx+1;
+    Cccccc2<-Cccccc2+1;
+	Finish
+  Until !!(Cccccc2 Ge Bbbbbbb)
+  Cccccc1<-Cccccc1+1;
+ Finish
+Until !!(Cccccc1 Ge Aaaaaaa)
+Output Xxxxxxx;
+
+Finish

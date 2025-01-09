@@ -1,0 +1,57 @@
+/*Prog2*/
+Program prog2;
+Var Integer Aaaaaaa,Bbbbbbb,Ccccccc;
+Start
+Input Aaaaaaa;
+Input Bbbbbbb;
+Input Ccccccc;
+If(Aaaaaaa Ge Bbbbbbb)
+Start
+	If(Aaaaaaa Ge Ccccccc)
+	Start
+		Goto Abigger;		
+	Finish
+	Else
+	Start
+		Output Ccccccc;
+		Goto Outofif;
+		Abigger:		
+		Output Aaaaaaa;
+		Goto Outofif;
+	Finish
+Finish	
+If(Bbbbbbb Le Ccccccc)
+Start
+	Output Ccccccc;
+Finish	
+Else
+Start
+	Output Bbbbbbb;
+Finish
+Outofif:	
+
+If((Aaaaaaa == Bbbbbbb) && (Aaaaaaa == Ccccccc) && (Bbbbbbb == Ccccccc))
+Start
+	Output 1;
+Finish	
+Else
+Start
+	Output 0;
+Finish
+If((Aaaaaaa Le 0) || (Bbbbbbb Le 0) || (Ccccccc Le 0))
+Start
+	Output -1;
+Finish	
+Else
+Start
+	Output 0;
+Finish
+If(!!(Aaaaaaa Le (Bbbbbbb + Ccccccc)))
+Start
+	Output(10);
+Finish	
+Else
+Start
+	Output(0);
+Finish
+Finish

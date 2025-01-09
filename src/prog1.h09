@@ -1,0 +1,17 @@
+/*Prog1*/
+Program prog1;
+Var Integer Aaaaaaa,Bbbbbbb,Xxxxxxx,Yyyyyyy;
+Start
+Input Aaaaaaa;
+Input Bbbbbbb;
+Output Aaaaaaa + Bbbbbbb;
+Output Aaaaaaa - Bbbbbbb;
+Output Aaaaaaa Mul Bbbbbbb;
+Output Aaaaaaa Div Bbbbbbb;
+Output Aaaaaaa Mod Bbbbbbb;
+
+Xxxxxxx<-(Aaaaaaa - Bbbbbbb) Mul 10 + (Aaaaaaa + Bbbbbbb) Div 10;
+Yyyyyyy<-Xxxxxxx + (Xxxxxxx Mod 10);
+Output Xxxxxxx;
+Output Yyyyyyy;
+Finish
